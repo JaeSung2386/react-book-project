@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../Navbar/Navbar";
+import SearchForm from "../SearchForm/SearchForm";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
-
+    <div className="holder">
+      <header className="header">
+        <Navbar />
+        <div className="header-content flex flex-c text-center text-white"></div>
+      </header>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
