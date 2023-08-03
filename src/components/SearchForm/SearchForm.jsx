@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const SearchForm = () => {
-  return (
-    <div>
+  return <div>SearchForm</div>;
+};
 
-    </div>
-  )
-}
-
-export default SearchForm
+export default SearchForm;
